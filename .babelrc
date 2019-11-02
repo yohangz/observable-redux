@@ -1,0 +1,39 @@
+{
+  "env": {
+    "bundle": {
+      "presets": [
+        [
+          "@babel/preset-env",
+          {
+            "modules": false,
+            "useBuiltIns": false
+          }
+        ]
+      ]
+    },
+    "esnext": {
+      "presets": [
+        [
+          "@babel/preset-env",
+          {
+            "modules": false,
+            "useBuiltIns": false,
+            "targets": {
+              "esmodules": true
+            }
+          }
+        ]
+      ]
+    },
+    "test": {
+      "presets": [
+        [
+          "@babel/preset-env",
+          {
+            "modules": "commonjs"
+          }
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,8 @@
+###
+### mocha.opts
+###
+
+--require ./helpers/typescript.js
+--require ./helpers/jsdom.js
+--require ./helpers/exclude.js
+--watch-extensions ts,tsx,js,jsx
